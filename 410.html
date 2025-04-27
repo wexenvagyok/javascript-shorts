@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>410</title>
+</head>
+
+<body>
+    <form>
+        <input type="number" id="a">
+        <input type="number" id="b">
+
+        <button type="button" onclick="ellenoriz()">Ellenő-rizz</button>
+    </form>
+
+    <script>
+        function ellenoriz() {
+            let a = Number(document.getElementById("a").value);
+            let b = Number(document.getElementById("b").value);
+
+            if (a > b) {
+                let szamolas = a / b
+                console.log(szamolas);
+            }
+            else {
+                let szamolas = b / a
+                console.log(szamolas);
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>
