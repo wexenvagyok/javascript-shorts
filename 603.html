@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>603</title>
+</head>
+<body>
+    <form>
+    <input type="text" id="bekert">
+    <button type="button" onclick="lefut()">gomb</button>
+</form>
+</body>
+
+<script>
+    /*Kérjen be egy nagybetűt, majd írja ki a kisbetűs változatát.*/
+
+    function lefut(){
+    let nagy = document.getElementById("bekert").value;
+
+    let kicsinyit = nagy.toLowerCase();
+
+    console.log(kicsinyit)
+}
+</script>
+</html>
